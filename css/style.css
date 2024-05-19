@@ -1,0 +1,95 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  max-width: 300px;
+  margin: 20px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 8px 0;
+  margin: 8px 0;
+  border: 1px solid #000000;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #2a51fce1;
+  color: white;
+  padding: 10px 0;
+  margin: 10px 0;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+button {
+  width: 100%;
+  background-color: #0866ff;
+  color: white;
+  padding: 10px 0;
+  margin: 10px 0;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: 700;
+  background-image: url("/img/2023_Facebook_icon.svg");
+  background-repeat: no-repeat;
+  background-position: initial;
+  background-size: 36px 36px;
+}
+
+button:hover {
+  background-color: #45a049;
+  background-image: none;
+}
+
+label {
+  color: #787676;
+}
+
+p {
+  font-size: 13px;
+  text-align: center;
+}
+
+.footer-parrafo {
+  font-size: 13px;
+  margin: 5px 0;
+}
+
+.footer-parrafo span {
+  color: rgb(5, 166, 166);
+}
+
+.linea-con-texto {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #9a9797;
+  line-height: 0.1em;
+  margin: 18px 0;
+  color: #9a9797;
+}
+
+.linea-con-texto span {
+  background-color: #fff;
+  padding: 0 10px;
+}
